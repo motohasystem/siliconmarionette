@@ -243,3 +243,30 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.main-content .description {
+  font-size: 0.8rem;
+  margin-bottom: 1rem; }
+
+
+.text-button {
+  width:300px;
+  color:#ffffff;
+  background:#337fcc;
+  font-weight:bold;
+  text-shadow:0 -1px 0px #225588,0 -2px 0px #225588;
+  text-align:center;
+  display:block;
+  text-decoration:none;
+  border:1px solid #225588;
+  padding:12px 0 8px 0;
+  border-radius:5px;
+  background:-moz-linear-gradient(rgba(34,85,136,0.5), rgba(34,85,136,1));
+  background:-webkit-gradient(linear, 100% 0%, 100% 100%, from(rgba(34,85,136,0.5)), to(rgba(34,85,136,1)));
+  box-shadow:1px 2px 2px rgba(0,0,0,0.3), 0px 1px 0px rgba(255,255,255,0.5) inset, 0px -1px 0px rgba(255,255,255,0.2) inset;
+}
+a.text-button:hover {
+  background:-moz-linear-gradient(rgba(34,85,136,0.4), rgba(34,85,136,0.9));
+  background:-webkit-gradient(linear, 100% 0%, 100% 100%, from(rgba(34,85,136,0.4)), to(rgba(119,170,221,0.9)));
+}
+
